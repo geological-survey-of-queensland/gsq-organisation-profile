@@ -1,32 +1,13 @@
-> **This is a template for creating GSQ Dataset Profiles.**  
-> This page uses [Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) for text formatting.  
-> Recommended reading:  
-> * [What is a dataset profile?](https://github.com/geological-survey-of-queensland/gsq-info-model/wiki/What-is-a-Dataset-Profile%3F)  
-> * [How to create a dataset profile?](https://github.com/geological-survey-of-queensland/gsq-info-model/wiki/How-to-create-a-dataset-profile)  
->
-> To use this template for a new profile, click the **Use this template** button. See [full instructions](https://help.github.com/en/articles/creating-a-repository-from-a-template).  
-> <img src="create-template.png">
->
-> _NOTE: Remove this text block when no longer required._ :sunglasses:
-___
-
-# Dataset Profile Name
-Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
+# Organisation (Party) Profile
+The party profile based on the AS 4590.1:2017 Interchange of client information standard.
 
 <p align="center">
-<img src="model/profile-template.svg" width="700px"><br>
-Figure 1: Add title of graphic</p>
+<img src="images/party-conceptual-model.png"><br>
+Figure 1: Party conceptual data model</p>
 
-Add additional text as required to explain the profile.
 
-# Dataset Subclass Profile Name (optional)
-Show a subclass where necessary to educate the reader. e.g. A `survey` profile shows a `seismic survey` - a specific type of `survey`.
 
-<p align="center">
-<img src="model/profile-template.svg" width="600px"><br>
-Figure 2: Add title of graphic</p>
-
-# Dataset Profile Usage (optional)
+# Dataset Profile Usage
 Explain the usage of the dataset profile using both textual and graphical means. This section helps the reader understand the profile and how it is used in the real world.
 
 Consider using an [activity diagram](https://www.lucidchart.com/pages/uml-activity-diagram), [state diagram](https://www.lucidchart.com/pages/uml-state-machine-diagram), or [sequence diagram](https://www.lucidchart.com/pages/uml-sequence-diagram) to explain process flows and temporal states.
@@ -105,10 +86,8 @@ Geological Survey of Queensland
 <mark.gordon@dnrme.qld.gov.au>  
 
 *author*:  
-**Your Name**  
-*Your Role Title - Your Unit*  
-Geological Survey of Queensland  
-<your.email@dnrme.qld.gov.au>
+**David Crosswell**  
+*Enterprise Architect*  
+CrossLateral  
+<https://crosslateral.com.au>
 
-___
-**Profile Status:** Draft
